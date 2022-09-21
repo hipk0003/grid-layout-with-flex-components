@@ -29,9 +29,26 @@ body {
     display: grid;
     grid-template-columns: 25% 25%;
  }
- .emoji{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
- }
- 
+
+ .emoji {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.icon {
+  order: 0;
+  margin: 0 auto;
+}
+
+.emoji h2 {
+  order: 1;
+}
+
+.emoji p {
+  order: 2;
+}
+
+.emoji a {
+  order: 3;
+}
